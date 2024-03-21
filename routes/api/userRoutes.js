@@ -3,7 +3,7 @@ const {
   getUsers,
   getSingleUser,
   createUser,
-} = require('../../controllers/userController');
+} = require('../../controllers/thoughtsController');
 
 // /api/users
 router.route('/').get(getUsers).post(createUser);
